@@ -907,3 +907,19 @@ strong {
   }
 }
 
+/* === Normalize Projects images === */
+.projects-thumb .projects-image{
+  display:block;
+  width:100%;
+  height:260px;        /* sab pics ki same height */
+  object-fit:cover;    /* crop karke neat fit */
+}
+
+@media (max-width: 575.98px){
+  .projects-thumb .projects-image{ height:200px; }
+}
+
+/* Cards ki height bhi uniform */
+.projects-thumb{ min-height: 360px; }
+.projects-thumb-large{ min-height: 360px; }
+
