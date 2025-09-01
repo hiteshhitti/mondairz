@@ -23,7 +23,16 @@
         <link href="css/magnific-popup.css" rel="stylesheet">
 
         <link href="css/tooplate-waso-strategy.css" rel="stylesheet">
-        
+
+        <!-- Lightbox2 CSS -->
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet"> -->
+
+        <!-- Lightbox2 JS -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script> -->
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
 
     </head>
@@ -332,20 +341,22 @@
             <!-- Certificate Card 1 -->
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
-                    <img src="./images/projects/aa.jpeg" class="img-fluid projects-image" alt="RERA Registration Certificate">
-
+                    <a href="images/projects/aa.jpeg" data-lightbox="services">
+                    <img src="./images/projects/aa.jpeg" class="img-fluid projects-image" data-lightbox="services" alt="RERA Registration Certificate">
                     <div class="projects-info">
                         <div class="projects-title-wrap">
                             <small class="projects-small-title"></small>
                             <h2 class="projects-title"></h2>
                         </div>
                     </div>
+                    </a>
                 </div>
             </div>
 
             <!-- Certificate Card 2 -->
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
+                    <a href="images/projects/bb.jpeg" data-lightbox="services">
                     <img src="./images/projects/bb.jpeg" class="img-fluid projects-image" alt="GMADA Approval Certificate">
 
                     <div class="projects-info">
@@ -354,12 +365,14 @@
                             <h2 class="projects-title"></h2>
                         </div>
                     </div>
+                    </a>
                 </div>
             </div>
 
             <!-- Certificate Card 3 -->
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
+                    <a href="images/projects/cc.jpeg" data-lightbox="services">
                     <img src="./images/projects/cc.jpeg" class="img-fluid projects-image" alt="ISO Quality Certificate">
 
                     <div class="projects-info">
@@ -368,12 +381,14 @@
                             <h2 class="projects-title"></h2>
                         </div>
                     </div>
+                    </a>
                 </div>
             </div>
 
             <!-- Large Certificate Showcase -->
             <div class="col-lg-8 col-12">
                 <div class="projects-thumb projects-thumb-large">
+                    <a href="images/projects/dd.jpeg" data-lightbox="services">
                     <img src="./images/projects/dd.jpeg" class="img-fluid projects-image" alt="Safety Excellence Award">
 
                     <div class="projects-info">
@@ -382,12 +397,14 @@
                             <h2 class="projects-title"></h2>
                         </div>
                     </div>
+                    </a>
                 </div>
             </div>
 
             <!-- Certificate Card 4 -->
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
+                    <a href="images/projects/ee.jpeg" data-lightbox="services">
                     <img src="./images/projects/ee.jpeg" class="img-fluid projects-image" alt="Client Appreciation Certificate">
 
                     <div class="projects-info">
@@ -396,6 +413,7 @@
                             <h2 class="projects-title"></h2>
                         </div>
                     </div>
+                    </a>
                 </div>
             </div>
 
@@ -442,13 +460,15 @@
                                 </a>
                             </p>
 
+                            <div style="position: fixed; top: 20px; right: 20px; z-index: 999;">
                             <p class="mb-0 mt-3">
-    <a href="https://wa.me/919779645007" target="_blank" class="footer-link d-inline-block">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
-             alt="WhatsApp" 
-             style="width:60px; height:60px;">
-    </a>
-</p>
+                                <a href="https://wa.me/919779645007" target="_blank" class="footer-link d-inline-block">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                                alt="WhatsApp" 
+                                style="width:90px; height:90px;">
+                                </a>
+                            </p>
+                            </div>
 
                             <iframe class="google-map mt-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.847367973014!2d76.6901!3d30.7046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fecc84faaaaab%3A0x1111111111111111!2sSector%20100%2C%20Mohali!5e0!3m2!1sen!2sin!4v1691234567890!5m2!1sen!2sin" width="100%" height="300" allowfullscreen="" loading="lazy"></iframe>
 
