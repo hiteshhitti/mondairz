@@ -947,7 +947,8 @@ strong {
 @media (max-width: 767.98px){
   .about-image-info{
     position: static;         /* remove overlay */
-    background: none;         /* remove gradient */
+    background: none;   
+    color: black;      /* remove gradient */
     padding: 12px 0 0;        /* spacing under image */
   }
 }
