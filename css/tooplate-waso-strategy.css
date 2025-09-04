@@ -949,7 +949,7 @@ strong {
     position: static;         /* remove overlay */
     background: rgba(0,0,0,0.7); 
     color: #fff;      /* remove gradient */
-    padding: 12px 0 0;   
+    padding: 12px 20px 0;   
     border-radius: 8px;
     margin-top: 10px;     /* spacing under image */
   }
